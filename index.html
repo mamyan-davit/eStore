@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--HEAD START-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecommerce Template</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css"> 
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head><!--HEAD END-->
+
+<body><!--BODY START-->
+    <!--NAVBAR & HEADER START-->
+    <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <h1 class="logo"><i class="fa fa-tag" aria-hidden="true"></i>web<span class="primary">store</span></h1>
+          <p class="subtext">Bootstrap ecommerce template</p>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <form class="form-inline">
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <button class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div><!--row end-->
+    </header>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">What's New</a></li>
+              <li><a href="#">Specials</a></li>
+              <li><a href="#">My Account</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input id="search" type="text" class="form-control" placeholder="Search...">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    <!--NAVBAR & HEADER END-->
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div>
+          <!-- Nav tabs -->
+          <ul class="tablist" role="tablist">
+            <li role="presentation" class="active"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Featured Item</a></li>
+            <li role="presentation"><a href="#best" aria-controls="best" role="tab" data-toggle="tab">Best Seller</a></li>
+            <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Summer Discount</a></li>
+            <li role="presentation"><a href="#premium" aria-controls="premium" role="tab" data-toggle="tab">Premium Product</a></li>
+            <li role="presentation"><a href="#gift" aria-controls="gift" role="tab" data-toggle="tab">Gift Idea</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="featured">
+              <div class="tab-text">
+                <h2>Apple iPhone 6</h2>
+                <p>Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="product.html" class="btn btn-default">Read More</a>
+              </div>
+              <img class="slide-img" src="img/product1.png">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="best">
+              <div class="tab-text">
+                <h2>Apple iPad 4 16GB</h2>
+                <p>Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="product.html" class="btn btn-default">Read More</a>
+              </div>
+              <img class="slide-img" src="img/product2.png">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="discount">
+              <div class="tab-text">
+                <h2>Playstation 4</h2>
+                <p>Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="product.html" class="btn btn-default">Read More</a>
+              </div>
+              <img class="slide-img" src="img/product3.png">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="premium">
+              <div class="tab-text">
+                <h2>XBOX 360</h2>
+                <p>Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="product.html" class="btn btn-default">Read More</a>
+              </div>
+              <img class="slide-img" src="img/product4.png">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="gift">
+              <div class="tab-text">
+                <h2>XBOX 360</h2>
+                <p>Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="product.html" class="btn btn-default">Read More</a>
+              </div>
+                <img class="slide-img" src="img/product5.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section id="products"><!--PRODUCTS START-->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/product1.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+            <h4 class="pull-right">
+            $12.999
+            </h4>
+            </div>
+            <div class="col-md-10">
+            <h4><a href="#">Bang &amp; Olufsen TV</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+           <p class="pull-right">15 reviews</p>
+           <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+           </p> 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/product2.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+            <h4 class="pull-right">
+            $899
+            </h4>
+            </div>
+            <div class="col-md-10">
+            <h4><a href="#">iPad 4 16GB</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+           <p class="pull-right">10 reviews</p>
+           <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+           </p> 
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/product3.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+            <h4 class="pull-right">
+            $560
+            </h4>
+            </div>
+            <div class="col-md-10">
+            <h4><a href="#">Vizio TV</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+           <p class="pull-right">12 reviews</p>
+           <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+           </p> 
+          </div> 
+        </div>   
+      </div>
+        <br>
+      <div class="row"><!--second row start-->
+        <div class="col-md-4">
+          <div class="thumbnail"> 
+            <img src="img/product4.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+              <h4>$1200</h4>
+            </div>
+            <div class="col-md-10">
+              <h4><a href="#">Playstation 4</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+          <p class="pull-right">120 reviews</p>
+            <p>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail"> 
+            <img src="img/product5.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+              <h4>$1000</h4>
+            </div>
+            <div class="col-md-10">
+              <h4><a href="#">XBOX 1</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+          <p class="pull-right">85 reviews</p>
+            <p>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail"> 
+            <img src="img/product6.png">
+          </div>
+          <div class="caption">
+            <div class="col-md-2 pull-right">
+              <h4>$450</h4>
+            </div>
+            <div class="col-md-10">
+              <h4><a href="#">Samsung Galaxy S%</a></h4>
+            </div>
+            <p>Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ratings">
+          <p class="pull-right">48 reviews</p>
+            <p>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+          </div>
+        </div>
+      </div><!--second row end-->
+    </section><!--PRODUCTS END-->
+    </div> <!-- /container -->
+  
+    <footer>
+      <p>No License &amp; &middot; <a href="#">Terms</a> &middot; <a href="#">Privacy</a></p>
+    </footer>
+
+  <!--SCRIPTS START-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <!--SCRIPTS END-->
+</body>
+<!--BODY END-->
+
+</html>

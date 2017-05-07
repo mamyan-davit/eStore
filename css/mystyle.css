@@ -1,0 +1,144 @@
+/*vars*/
+body {
+  padding: 0;
+}
+.navbar {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
+  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
+  background: linear-gradient(to bottom, #f2f9fe 0%, #d6f0fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f9fe', endColorstr='#d6f0fd', GradientType=0);
+  border: 1px solid #ccc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default a:hover {
+  background: none;
+  color: #0383c0 !important;
+  font-weight: bold;
+}
+.navbar li {
+  margin-right: 7px;
+}
+#search {
+  width: 250px;
+  margin-right: 10px;
+}
+.logo {
+  width: 100%;
+  margin: 40px 0 0 0;
+  font-family: 'Oswald', sans-serif;
+}
+.primary {
+  color: #0383c0;
+}
+.subtext {
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 0 45px;
+}
+header form {
+  float: right;
+  margin-top: 35px;
+  background: #0383c0;
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+#products {
+  margin-bottom: 35px;
+}
+.jumbotron {
+  overflow: auto;
+  padding: 0 !important;
+}
+.jumbotron p {
+  font-size: 15px;
+}
+.tablist {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+}
+.tablist li {
+  background: #ccc;
+  list-style: none;
+  color: #666;
+  padding: 15px 10px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 15px;
+}
+.tablist li.active {
+  background: #0383c0;
+  color: #fff;
+}
+.tablist li.active a {
+  background: #0383c0;
+  color: #fff;
+}
+.tablist a {
+  color: #666;
+  display: block;
+  text-decoration: none;
+}
+a,
+a:active,
+a:focus {
+  outline: none;
+}
+.tab-content {
+  float: right;
+  width: 70%;
+  background: #0383c0;
+  color: #fff;
+  overflow: hidden;
+  height: 275px;
+  padding-top: 20px;
+}
+.slide-img {
+  float: left;
+  width: 40%;
+  margin-top: 8px;
+  padding-left: 20px;
+}
+.tab-text {
+  float: left;
+  width: 50%;
+  margin-left: 40px;
+}
+@media (max-width: 600px) {
+  .tab-content {
+    height: 350px;
+  }
+}
+@media (max-width: 960px) {
+  header form {
+    width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .slide-img {
+    display: none;
+  }
+  .tab-text {
+    float: none;
+    width: 80%;
+  }
+}
+.main-image {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  height: 60px;
+  background: #f4f4f4;
+  padding-top: 20px;
+  margin-top: 50px;
+}
